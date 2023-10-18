@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(147, 206, 226);
+}
+
+.container {
+    background-color: white;
+    margin: auto;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.logo {
+    width: 10%;
+    margin-left: 1em;
+}
+
+.caja{
+    margin-left: 3em;
+    display:inline-block;
+    margin-top: 1em;
+    min-width: 5em;
+
+}
+.btn{
+    display:inline-block;
+}
+
+.calendario{
+    justify-content: center;
+    display: flex;
+    margin-top: 1em;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    text-align: center;
+
+  }
+
+  .row:after {
+    display: table;
+    clear: both;
+  }
+
+  #grilla{
+    margin: 1em;
+  }
